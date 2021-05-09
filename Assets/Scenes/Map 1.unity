@@ -4445,6 +4445,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1268604989}
+  - component: {fileID: 1268604990}
   m_Layer: 0
   m_Name: SpawnManager
   m_TagString: Untagged
@@ -4471,6 +4472,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1268604990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268604988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe01b3bf65710849847c6f609e8100f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnPoints:
+  - {fileID: 219118086}
+  - {fileID: 359728348}
+  - {fileID: 734722094}
+  - {fileID: 422472490}
+  - {fileID: 937526729}
 --- !u!1 &1272491367
 GameObject:
   m_ObjectHideFlags: 0
